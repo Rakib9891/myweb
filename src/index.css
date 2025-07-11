@@ -8,6 +8,32 @@
     color:#383838;
     background: #ffffff;
 }
+body{
+
+    font-family: 'Space Grotesk', sans-serif;
+}
 .header{
-    margin: 40px;
+    margin-top: -10px;
+}
+.hero{
+    margin-top: 40px;
+    padding: 0 120px;
+}
+.logo{
+    padding: 0 90px;
+}
+/* .intro-pic{
+  
+} */
+.pic{
+    height: 100%;
+}
+.ul{
+    margin-left: 120px;
+}
+.fa-brands{
+    color: #18b897;
+}
+.nav Navlink {
+    background-color: #18b897;
 }
