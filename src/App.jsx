@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavLink, Route, BrowserRouter as Router, Routes } from 'react-router-dom'
 import Navbar from './components/Navbar'
-
+import { Home, About, Contact, Projects } from './pages/Index'
 
 function  App() {
   return (
@@ -11,10 +11,10 @@ function  App() {
       <Router>
         <Navbar className="navbar"/>
         <Routes>
-          <Route path='/' element={"Home"}/>
-          <Route path='/about' element={"about"}/>
-          <Route path='/contact' element={"contact"}/>
-          <Route path='/projects' element={"projects"}/>
+          <Route path='/' element={<Home/>}/>
+          <Route path='/about' element={<About/>}/>
+          <Route path='/contact' element={<Contact/>}/>
+          <Route path='/projects' element={<Projects/>}/>
         </Routes>
       </Router>
     </main>

@@ -5,6 +5,9 @@
     box-sizing: border-box;
 }
 :root{
-    color: aliceblue;
-    background: linear-gradient(45deg, rgb(32, 32, 37), rgb(0, 0, 0));
+    color:#383838;
+    background: #ffffff;
+}
+.header{
+    margin: 40px;
 }
