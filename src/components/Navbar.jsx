@@ -5,8 +5,9 @@ function Navbar() {
   return (
     <header className="header flex items-center justify-between">
         <NavLink to="/" className={'logo'}>
-            {/* <p className='bg-gray-300 text-white'> */}
-              <img className='' src="../src/assets/logo.png" alt="logo" />
+            <p className='bg-[#1495ff] text-white w-10 h-10 flex justify-center items-center rounded-full font-bold text-3xl'>
+              R </p>
+              {/* <img className='' src="../src/assets/logo.png" alt="logo" /> */}
             
         </NavLink>
         <nav className='nav w-3/5 flex justify-left items-center gap-8'>

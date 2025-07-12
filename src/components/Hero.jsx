@@ -3,16 +3,16 @@ import React from 'react'
 function Hero() {
   return (
     <>
-    <div className='hero flex justify-baseline items-center flex-wrap'>
-        <div className="intro w-3/5 flex justify-center items-start flex-col gap-7 mt">
+    <div className='hero flex justify- items-center flex-wrap'>
+        <div className="intro w-3/5 flex justify-center  flex-col gap-7 mt">
         <h1 className='text-[#010101] font-bold text-2xl'>Hello I'm a </h1>
         <h1 className='text-[#010101] font-bold text-4xl'> 
-        MERN stack <span className='text-[#18b897]'> Web Developer</span></h1>
+        MERN stack <span className='text-[#1495ff]'> Web Developer</span></h1>
         <p className='text-[#4e4e4e] text-sm'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum repellendus ipsam, dolore laborum ad incidunt repudiandae aut vero fdf
         </p>
         </div>
         <div className="intro-pic h-70">
-            <img className='pic' src="./src/assets/intro.jpg" alt="" />
+            <img className='pic' src="./src/assets/intro.png" alt="" />
         </div>
     </div>
     <div className="social ">

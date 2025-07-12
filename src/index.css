@@ -5,22 +5,26 @@
     box-sizing: border-box;
 }
 :root{
-    color:#383838;
-    background: #ffffff;
+    color:#000000;
+    background: #EEEEEE
 }
 body{
 
     font-family: 'Space Grotesk', sans-serif;
 }
 .header{
-    margin-top: -10px;
+    margin-top: 40px;
 }
 .hero{
-    margin-top: 40px;
+    margin-top: 140px;
     padding: 0 120px;
 }
 .logo{
-    padding: 0 90px;
+    padding: 0 115px;
+}
+.logo img{
+    height: 50px;
+    width: 138px;
 }
 /* .intro-pic{
   
@@ -32,8 +36,28 @@ body{
     margin-left: 120px;
 }
 .fa-brands{
-    color: #18b897;
+    color: #1495ff;
 }
 .nav Navlink {
-    background-color: #18b897;
+    background-color: #1495ff;
+}
+.about-sec{
+    margin: 14% 0;
+}
+.about-me, .about-img{
+    padding: 40px;
+}
+.about-li{
+    margin-top: 20px;
+}
+.about-li li{
+    padding: 10px;
+    border: 1px solid #1495ff;
+    margin: 5px;
+    border-radius: 25px;
+    color: #4e4e4e
+}
+.hire{
+    padding: 5px 10px;
+    margin: 10px;
 }
