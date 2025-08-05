@@ -9,7 +9,7 @@ const ContactMe = () => {
   const handleSub = (e) => {
     e.preventDefault();
     SetSent(true);
-    setTimeout(() => SetSent(true), 3000);
+    setTimeout(() => SetSent(true),0);
   };
   const handleChange = (e) => {
     const name = e.target.name;

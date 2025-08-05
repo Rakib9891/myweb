@@ -1,28 +1,53 @@
-import React from 'react'
-import { NavLink } from 'react-router-dom'
-import Hero from './Hero';
-
-
+import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 function Navbar() {
   return (
     <>
-    <header className="header flex items-center justify-between ">
-        <NavLink to="/" className={'logo'}>
-            <p className='bg-[#332E2E] text-[#D9FFB6]  w-20 h-20 flex justify-center items-center rounded-full font-bold text-6xl r'>
-              R </p>
-              {/* <img className='' src="../src/assets/logo.png" alt="logo" /> */}
-            
+      <header className="bg-[#0f172a] px-6 py-4 flex items-center justify-between shadow-md">
+        <NavLink to="/" className="logo">
+          <p className="bg-[#1e293b] text-cyan-300 w-16 h-16 flex justify-center items-center rounded-full font-bold text-4xl shadow-md hover:scale-105 transition duration-300">
+            R
+          </p>
         </NavLink>
-        <nav className='nav w-1/2 flex justify-center items-center gap-8'>
-            <NavLink to="/about" className={({isActive}) => `aboutt ${isActive?"text-sky-500":"text-black"}`}>About</NavLink>
-            <NavLink to="/contact" className={({isActive}) => `aboutt ${isActive?"text-sky-500":"text-black"}`}>Contact</NavLink>
-            <NavLink to="/projects" className={({isActive}) => `aboutt ${isActive?"text-sky-500":"text-black"}`}>Projects</NavLink>
+
+        <nav className="flex gap-8 text-slate-100 text-lg font-medium">
+          <NavLink
+            to="/about"
+            className={({ isActive }) =>
+              `hover:text-cyan-400 transition duration-200 ${
+                isActive ? 'text-cyan-400' : 'text-slate-100'
+              }`
+            }
+          >
+            About
+          </NavLink>
+
+          <NavLink
+            to="/contact"
+            className={({ isActive }) =>
+              `hover:text-cyan-400 transition duration-200 ${
+                isActive ? 'text-cyan-400' : 'text-slate-100'
+              }`
+            }
+          >
+            Contact
+          </NavLink>
+
+          <NavLink
+            to="/projects"
+            className={({ isActive }) =>
+              `hover:text-cyan-400 transition duration-200 ${
+                isActive ? 'text-cyan-400' : 'text-slate-100'
+              }`
+            }
+          >
+            Projects
+          </NavLink>
         </nav>
-    </header>
-  
-        </>
-  )
+      </header>
+    </>
+  );
 }
 
 export default Navbar;

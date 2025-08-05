@@ -9,7 +9,7 @@ function  App() {
   return (
 
 
-    <main className='main'>
+    <main className='main '>
       <Router>
         <Navbar className="navbar"/>
         <Routes>

@@ -6,7 +6,7 @@
 }
 :root{
     color:#332E2E;
-    background: #fff8f4;
+    background: #0f172a;
     
 }
 body{
@@ -72,13 +72,12 @@ body{
     margin-left: 120px;
 }
 .fa-brands{
-    color: #332E2E;
+    color: var(--color-green-600);
 }
 .fa-brands  a{
     overflow: hidden;
 }
 .links:hover{
-    background: #D9FFB6 ;
     border-radius: 10px;
 }
 .aboutt{
@@ -89,7 +88,7 @@ body{
 }
 .aboutt:hover{
     border-bottom: 1px solid #332E2E;
-    background: #D9FFB6 ;
+    background: var(--color-green-600);
     border-radius: 5px;
 }
 .about-sec{
@@ -125,7 +124,6 @@ body{
 }
 .btn:hover{
     background-color: transparent;
-    color: #332E2E;
     padding: 5px 40px;
 }
 .email{
@@ -151,7 +149,7 @@ body{
     padding: 70px 0px;
     
 }
-.skill{
+/* .skill{
     padding: 25px;
     font-size: 1rem;
     display: flex;
@@ -162,8 +160,8 @@ body{
     transition: .3s ease;
 }
 .skill:hover{
-    background: #D9FFB6 ;
-}
+    background: var(--color-green-600);
+} */
 .text-sm{
     padding: 15px 0 0 0;
 }
@@ -191,14 +189,14 @@ body{
     text-align: center;
 }
 .bg-white:hover{
-    background-color: #D9FFB6;
+    background-color: var(--color-green-600);
 }
-.service-card:hover{
-    background: #D9FFB6;
+/* .service-card:hover{
+    background: var(--color-green-600);
 }
 .service-text{
     margin: 50px 0 100px 0;
-}
+} */
 /* Section Contact  */
 .popup1{
     height: 50vh;
@@ -230,15 +228,14 @@ body{
 
 .btn2{
     padding: 15px 35px;
-    border: 2px solid #332E2E;
+    border: 2px solid #eeeeee;
     transition: .3s ease;
     margin-bottom: 20px;
     background: #332E2E;
     color: #fff8f4;
 }
 .btn2:hover{
-    background-color: #D9FFB6 ;
-    color: #332E2E;
+    background-color: var(--color-green-600);
     padding: 15px 40px;
 }
 .footer-ul li{
